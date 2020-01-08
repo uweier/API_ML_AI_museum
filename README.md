@@ -59,14 +59,46 @@
 |3|低|参观者想对某一件文物有更多的了解|[相同图片搜索API](https://ai.baidu.com/tech/imagesearch/same)|
 
 ## 原型
-### 交互及界面设计
-交互及界面设计：在PRD文件中是否有说明且原型是否有做到：交互及界面设计的某个核心交互环节使用了人工智能的加值
-
 ### 信息设计
-信息设计：在PRD文件中是否有说明且原型是否有做到：信息设计的某个核心信息或设计使用了人工智能的加值
+- 人流量统计功能：使用了人流量统计API，方便参观者提前了解每个展馆的人流量，避开参观高峰。
+- 语音导览功能：使用了语音合成API，方便参观者参观。
+- 拍照识别馆内文物：使用了相同图片搜索，能够快速地将馆内文物识别，并提供更多关于该文物的介绍，同时介绍可选择通过语音播报的方式。
+
+产品架构图：
+
+![产品架构图](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/jiagou.png)
+
+产品主要功能使用流程图：
+
+![产品主要功能使用流程图](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/liucheng.png)
+
+### 交互及界面设计
+[查看交互](https://nfunm034.gitee.io/api_museum)
+
+人流量统计：
+
+![人流量统计](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/renliuliang.png)
+
+语音导览：
+
+![语音导览](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/yuyindaolan.png)
+
+相同图片搜索：
+
+![相同图片搜索](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/paizhao.png)
+
+![文物介绍](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/jieshao.png)
 
 ### 原型文档
-原型文档：多少程度上有提供MVP可交互的原型文档，供它人在Github上下载使用
+[智能博物馆APP.rp下载](https://github.com/uweier/API_ML_AI_museum/blob/master/%E6%99%BA%E8%83%BD%E5%8D%9A%E7%89%A9%E9%A6%86APP.rp)
+
+[智能博物馆APP文件](https://github.com/uweier/API_ML_AI_museum/tree/master/%E6%99%BA%E8%83%BD%E5%8D%9A%E7%89%A9%E9%A6%86APP)
 
 ### 口头操作说明
-口头操作说明：多少程度上在2-3分钟时间限制内，对听众留下了「的确这是个可行丶可用的人工智能加值产品」的印象
+**一句话版本**
+
+通过人流量统计、语音导览、拍照识别的方式，更好地为参观者介绍博物馆文物，宣扬博物馆文化。
+
+**一分钟版本**
+
+大家好，我给大家介绍一款智能博物馆APP。这款智能博物馆APP有三大亮点：首先是，通过使用人流量统计API，为参观者展现各展馆内人流量情况，方便参观者提前得知馆内人数，合理安排参观时间，错峰参观；然后是，通过使用语音合成API，让参观者可以在自己手机上就能随意切换不同展馆的语音导览，无需借博物馆的导览设备；最后，通过使用相同图片搜索API，让参观者可以用手机拍下博物馆内文物，APP智能识别后，输出该文物的相关介绍，并能够通过语音介绍该文物。这三大功能主要是为了喜欢安静、行动不便的参观者而设计的，当然，其余人群也很适合使用。无论是喜欢安静的人群，还是多动症小孩，当他们都戴上耳机听取语音播报时，馆内环境自然就变得安静。
