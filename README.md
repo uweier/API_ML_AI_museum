@@ -73,7 +73,7 @@
 ![产品主要功能使用流程图](https://github.com/uweier/API_ML_AI_museum/blob/master/API_museum_image/liucheng.png)
 
 ### 交互及界面设计
-[查看交互](https://nfunm034.gitee.io/api_museum)
+[**查看交互**](https://nfunm034.gitee.io/api_museum)
 
 人流量统计：
 
